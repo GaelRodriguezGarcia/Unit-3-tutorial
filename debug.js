@@ -22,8 +22,8 @@ function test(){
     //separated the filtered into its 3 important parts;
     for(var x = 0; x < filteredList.length; x+=3){
         instructions.push(filteredList[x]);
-        start.push(filteredList(x+1));
-        end.push(filteredlist[x+2]);
+        start.push(filteredList[x+1]);
+        end.push(filteredList[x+2]);
     }
     
 
@@ -116,7 +116,7 @@ function test(){
             xE = tempL;
 
             tempS = Math.min(yS, yE);
-            tempL = Math.max(yS, yE);d
+            tempL = Math.max(yS, yE);
 
             yS = tempS;
             yE = tempL;
